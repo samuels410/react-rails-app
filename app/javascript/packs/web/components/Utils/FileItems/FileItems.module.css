@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.fileItem {
+  width: 60%;
+  height: 40px;
+  border: solid 1px var(--very-light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.closeButton {
+  width: 24px;
+  height: 24px;
+  padding: 0px;
+}
+.closeIcon {
+  width: 24px;
+  height: 24px;
+  color: var(--rosy-pink);
+}
+.fileSize {
+  color: rgba(0, 0, 0, 0.23);
+  font-size: 12px;
+}
+.fileName {
+  width: 60%;
+  font-size: 14px;
+}

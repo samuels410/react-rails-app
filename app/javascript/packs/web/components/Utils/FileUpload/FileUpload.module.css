@@ -1,0 +1,21 @@
+.uploadContainer {
+  border-radius: 6px;
+  border: solid 1px var(--light-blue-grey-two);
+  background-color: var(--very-light-blue);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.label {
+  color: var(--clear-blue);
+  font-weight: 600;
+}
+.icon {
+  width: 17.2px;
+  height: 19.6px;
+  color: var(--dark-grey-blue);
+  transform: rotate(-45deg);
+  margin-right: 10px;
+}

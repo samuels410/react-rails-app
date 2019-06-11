@@ -1,0 +1,10 @@
+.container{
+    border: solid 1px #dddddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lock{
+    color: var(--grey-blue);
+}

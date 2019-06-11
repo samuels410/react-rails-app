@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0ab53dd-286b-4e1e-b80c-45b75458deaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/images/defaultCourse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/images/icons/angleDoubleRight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/images/icons/article.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/images/icons/completed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/images/icons/discussion.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/images/icons/quiz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/styles/colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/styles/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/utils/courses.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/utils/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/utils/styles.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/utils/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/common/utils/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/index.web.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Active/Active.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Active/Active.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Active/Active.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Active/Active.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Active/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Completed/Completed.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Completed/Completed.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Completed/Completed.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Completed/Completed.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Completed/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/CourseCards.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Failed/Failed.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Failed/Failed.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Failed/Failed.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Failed/Failed.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Failed/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Upcoming/Upcoming.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Upcoming/Upcoming.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Upcoming/Upcoming.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Upcoming/Upcoming.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/Upcoming/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseCards/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/AssignmentItem/AssignmentItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/AssignmentItem/AssignmentItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/AssignmentItem/AssignmentItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/AssignmentItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/CourseItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DefaultItem/DefaultItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DefaultItem/DefaultItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DefaultItem/DefaultItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DefaultItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DiscussionQuestionItem/DiscussionQuestionItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DiscussionQuestionItem/DiscussionQuestionItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DiscussionQuestionItem/DiscussionQuestionItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/DiscussionQuestionItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LearningMaterialItem/LearningMaterialItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LearningMaterialItem/LearningMaterialItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LearningMaterialItem/LearningMaterialItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LearningMaterialItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LinkItem/LinkItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LinkItem/LinkItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LinkItem/LinkItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/LinkItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/QuizItem/QuizItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/QuizItem/QuizItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/QuizItem/QuizItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/QuizItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/ResourceItem/ResourceItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/ResourceItem/ResourceItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/ResourceItem/ResourceItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/ResourceItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/SubHeaderItem/SubHeaderItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/SubHeaderItem/SubHeaderItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/SubHeaderItem/SubHeaderItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/SubHeaderItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/VideoItem/VideoItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/VideoItem/VideoItem.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/VideoItem/VideoItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/VideoItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/__components__/LockedItemAlert/LockedItemAlert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/__components__/LockedItemAlert/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseModule/CourseModule.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseModule/CourseModule.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseModule/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/AssignmentContentItem/AssignmentContentItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/AssignmentContentItem/AssignmentContentItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/AssignmentContentItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/QuizContentItem/AttemptHistory.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/QuizContentItem/AttemptHistory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/QuizContentItem/QuizContentItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/QuizContentItem/QuizContentItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/QuizContentItem/QuizContentItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/QuizContentItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/ResourceContentItem/ResourceContentItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/ResourceContentItem/ResourceContentItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/ResourceContentItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/VideoContentItem/VideoContentItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/VideoContentItem/VideoContentItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/VideoContentItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseContentItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseGrades/CourseGrades.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseGrades/CourseGrades.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseGrades/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseInfo/CourseInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseInfo/CourseInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseInfo/ViewGrades/ViewGrades.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseInfo/ViewGrades/ViewGrades.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseInfo/ViewGrades/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseRecording/CourseRecording.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseRecording/CourseRecording.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseRecording/CourseRecording.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/CourseRecording/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Footer/Footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Footer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/FooterBase/FooterBase.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/FooterBase/FooterBase.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/FooterBase/FooterBase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/FooterBase/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/Header.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/Header.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/Header.types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/ProfileMenu/ProfileMenu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/ProfileMenu/ProfileMenu.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/ProfileMenu/ProfileMenu.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/ProfileMenu/ProfileMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/ProfileMenu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/HeaderBase/HeaderBase.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/HeaderBase/HeaderBase.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/HeaderBase/HeaderBase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/HeaderBase/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/IndustryArticle/IndustryArticle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/IndustryArticle/IndustryArticle.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/IndustryArticle/IndustryArticle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/IndustryArticle/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ItemsNavigator/ItemsNavigator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ItemsNavigator/ItemsNavigator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ItemsNavigator/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/PageBase/PageBase.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/PageBase/PageBase.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/PageBase/PageBase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/PageBase/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/PageNotFoundContent/PageNotFoundContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/PageNotFoundContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/AnswerTypes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/Essay/Essay.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/Essay/Essay.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/Essay/Essay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/Essay/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MAQ/MAQ.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MAQ/MAQ.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MAQ/MAQ.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MAQ/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MCQ/MCQ.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MCQ/MCQ.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MCQ/MCQ.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/MCQ/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/TrueFalse/TrueFalse.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/TrueFalse/TrueFalse.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/TrueFalse/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/AnswerTypes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/QuizContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/QuizContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/QuizContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ReEnrollForm/ReEnroll.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ReEnrollForm/ReEnrollForm.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ReEnrollForm/ReEnrollForm.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ReEnrollForm/ReEnrollForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/ReEnrollForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Alert/Alert.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Alert/Alert.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Alert/Alert.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Alert/Alert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Alert/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AlertComponent/AlertComponent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AlertComponent/AlertComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AsyncDOM/AsyncDOM.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AsyncDOM/AsyncDOMSubComponents.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AsyncDOM/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AuthorImages/AuthorImages.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AuthorImages/AuthorImages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/AuthorImages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/BreadCrumbs/BreadCrumbs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/BreadCrumbs/BreadCrumbs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/BreadCrumbs/BreadCrumbs.types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/BreadCrumbs/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogActions/DialogActions.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogActions/DialogActions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogActions/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogContent/DialogContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogContent/DialogContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogMain/DialogMain.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogMain/DialogMain.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogMain/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogTitle/DialogTitle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogTitle/DialogTitle.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogTitle/DialogTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/DialogTitle/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Dialog/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/DragAndDrop/DragAndDrop.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/DragAndDrop/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ErrorBoundary/ErrorBoundary.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ErrorBoundary/ErrorBoundary.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ErrorBoundary/ErrorBoundary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ErrorBoundary/ErrorMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ErrorBoundary/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/FileItems/FileItems.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/FileItems/FileItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/FileItems/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/FileUpload/FileUpload.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/FileUpload/FileUpload.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/FileUpload/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/CircleLock/CircleLock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/CircleLock/CircleLock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/CloseDrawer/CloseDrawer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/CloseDrawer/CloseDrawer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/DoneIcon/DoneIcon.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/DoneIcon/DoneIcon.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/DoneIcon/DoneIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/DoneIcon/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/OpenDrawer/OpenDrawer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/OpenDrawer/OpenDrawer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/ProgressIcon/ProgressIcon.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/ProgressIcon/ProgressIcon.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/ProgressIcon/ProgressIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/ProgressIcon/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Icons/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/LinkButton/LinkButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/LinkButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Loader/CircularLoader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Loader/Loader.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Loader/Loader.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Loader/LoaderBase.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Loader/LoaderBase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Loader/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/PrivateRoute/FallbackHandler.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/PrivateRoute/FallbackHandler.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/PrivateRoute/PrivateRoute.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/PrivateRoute/PrivateRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/PrivateRoute/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ReadMore/ReadMore.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ReadMore/ReadMore.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ReadMore/ReadMore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ReadMore/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ShowMore/ShowMore.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ShowMore/ShowMore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/ShowMore/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Timer/Timer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Timer/Timer.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Timer/Timer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/Timer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/useDebounce/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/components/Utils/useDebounce/useDebounce.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseItem/CourseItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseItem/CourseItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseItem/ResourceItem/ResourceItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseItem/ResourceItem/ResourceItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseItem/ResourceItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseModule.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseModule.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseModule.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModules/CourseModules.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModules/CourseModules.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModules/CourseModules.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModules/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/ItemContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/ItemContent.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/ItemContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/MainContent/MainContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/MainContent/MainContent.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/MainContent/MainContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/MainContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/NavigationContent/NavigationContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/NavigationContent/NavigationContent.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/NavigationContent/NavigationContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/NavigationContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemPath/ItemPath.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemPath/ItemPath.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemPath/ItemPath.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContentItem/ItemPath/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseGrades/CourseGrades.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseGrades/CourseGrades.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseGrades/CourseGrades.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseGrades/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseInfo/CourseInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseInfo/CourseInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseInfo/__tests__/CourseInfo.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseRecordings/CourseRecordings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseRecordings/CourseRecordings.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseRecordings/CourseRecordings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/CourseRecordings/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Courses/Courses.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Courses/Courses.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Courses/Courses.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Courses/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/Header.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/Header.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/ProfileMenu/ProfileMenu.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/ProfileMenu/ProfileMenu.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/ProfileMenu/ProfileMenu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/ProfileMenu/ProfileMenu.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/ProfileMenu/ProfileMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/ProfileMenu/ProfileMenu.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/ProfileMenu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/IndustryArticles/IndustryArticles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/IndustryArticles/IndustryArticles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/IndustryArticles/__tests__/IndustryArticles.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/IndustryArticles/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/AssignmentItemTypeContent/AssignmentItemTypeContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/AssignmentItemTypeContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/ItemTypeContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/QuizItemTypeContent/QuizItemTypeContent.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/QuizItemTypeContent/QuizItemTypeContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/QuizItemTypeContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/ResourceItemTypeContent/ResourceItemTypeContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/ResourceItemTypeContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/VideoItemTypeContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ItemTypeContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/QuizRunner/QuizRunner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/QuizRunner/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ReEnroll/ReEnroll.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ReEnroll/ReEnroll.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/containers/ReEnroll/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseContentItem/CourseContentItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseContentItem/CourseContentItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseContentItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseDetails/CourseDetails.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseDetails/CourseDetails.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseDetails/CourseDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseDetails/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseList/CourseList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseList/CourseList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/CourseList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/Dashboard/Dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/Dashboard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/PageNotFound/PageNotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/pages/PageNotFound/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/CoursesProvider/Courses.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/CoursesProvider/Courses.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/CoursesProvider/Courses.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/CoursesProvider/Courses.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/CoursesProvider/__tests__/CoursesProvider.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/CoursesProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/GradesProvider/Grades.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/GradesProvider/Grades.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/GradesProvider/Grades.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/GradesProvider/Grades.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/GradesProvider/__tests__/GradesProvider.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/GradesProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/IndustryArticlesProvider/IndustryArticles.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/IndustryArticlesProvider/IndustryArticles.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/IndustryArticlesProvider/IndustryArticles.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/IndustryArticlesProvider/IndustryArticles.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/IndustryArticlesProvider/__tests__/IndustryArticlesProvider.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/IndustryArticlesProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ItemContent/ItemContent.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ItemContent/ItemContent.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ItemContent/ItemContent.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ItemContent/ItemContent.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ItemContent/__tests__/ItemContent.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ItemContent/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ModuleItems.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ModuleItems.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ModuleItems.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/ModuleItems.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizActivityProvider/QuizActivity.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizActivityProvider/QuizActivity.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizActivityProvider/QuizActivity.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizActivityProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizQAProvider/QuizQA.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizQAProvider/QuizQA.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizQAProvider/QuizQA.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizQAProvider/QuizQA.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizQAProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizSubmissionsProvider/QuizSubmissions.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizSubmissionsProvider/QuizSubmissions.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizSubmissionsProvider/QuizSubmissions.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizSubmissionsProvider/QuizSubmissions.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizSubmissionsProvider/__tests__/QuizSubmissionsProvider.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/Quiz/QuizSubmissionsProvider/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/__tests__/ModuleItemsProvider.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModuleItemsProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModulesProvider/Modules.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModulesProvider/Modules.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModulesProvider/Modules.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModulesProvider/Modules.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModulesProvider/__tests__/ModulesProvider.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/ModulesProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/RecordingsProvider/Recordings.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/RecordingsProvider/Recordings.middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/RecordingsProvider/Recordings.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/RecordingsProvider/Recordings.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/RecordingsProvider/__tests__/RecordingsProvider.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/providers/Courses/RecordingsProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/routes.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/store/middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/store/reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/styles/colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/packs/web/styles/theme.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <ignored path="$PROJECT_DIR$/vendor/cache/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1204561253">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Gemfile" value="3" />
+          <entry key="erb" value="10" />
+          <entry key="js" value="3" />
+          <entry key="json" value="41" />
+          <entry key="rb" value="13" />
+          <entry key="yml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="3" />
+          <entry key="RHTML" value="10" />
+          <entry key="Ruby" value="16" />
+          <entry key="YAML" value="8" />
+          <entry key="tsconfig" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Gemfile" value="1" />
+          <entry key="browserslistrc" value="1" />
+          <entry key="erb" value="3" />
+          <entry key="js" value="7" />
+          <entry key="json" value="2" />
+          <entry key="jsx" value="1" />
+          <entry key="lock" value="1" />
+          <entry key="rb" value="3" />
+          <entry key="ts" value="2" />
+          <entry key="tsx" value="4" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JSX Harmony" value="1" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="RHTML" value="3" />
+          <entry key="Ruby" value="4" />
+          <entry key="TypeScript" value="2" />
+          <entry key="TypeScript JSX" value="4" />
+          <entry key="YAML" value="3" />
+          <entry key="tsconfig" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpacker.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/storage.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack/development.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack/environment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack/loaders/typescript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>transform-react-remove-prop-types</find>
+      <find>preset-react</find>
+      <find>@types/react</find>
+      <find>react-dom</find>
+      <find>ts-loader</find>
+      <find>react-redux</find>
+      <find>ResourceItemComponent</find>
+      <find>remove-prop-types</find>
+      <find>babel-loader</find>
+      <find>bab</find>
+      <find>webpack-dev-server</find>
+      <find>webpac</find>
+      <find>webpacker</find>
+      <find>webpack</find>
+      <find>babel-plugin-transform-react-remove-prop-types</find>
+      <find>typescript</find>
+      <find>events</find>
+      <find>flux</find>
+      <find>prop-types</find>
+      <find>history</find>
+      <find>react</find>
+      <find>&quot;react&quot;</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/webpack/development.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/config/webpack/loaders/typescript.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="716" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react-rails-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-rails-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-rails-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-rails-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-rails-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-rails-app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/javascript" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: react-rails-app">
+    <configuration name="Development: react-rails-app" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="react-rails-app" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: react-rails-app" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="react-rails-app" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: react-rails-app" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="react-rails-app" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: react-rails-app" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="react-rails-app" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Rake.test: react-rails-app" />
+      <item itemvalue="Rake.spec: react-rails-app" />
+      <item itemvalue="Rails.Production: react-rails-app" />
+      <item itemvalue="Rails.Development: react-rails-app" />
+    </list>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0ab53dd-286b-4e1e-b80c-45b75458deaa" name="Default Changelist" comment="" />
+      <created>1560174690582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560174690582</updated>
+      <workItem from="1560174691935" duration="5553000" />
+      <workItem from="1560233499489" duration="2063000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7616000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22213247" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3294893" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs.bak/hello_react.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs.bak/hello_typescript.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs.bak/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/web/pages/Dashboard/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.browserslistrc" />
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/react-app-env.d.ts" />
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/web/constants/index.js" />
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/index.web.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/web/containers/CourseContent/CourseModule/CourseItem/ResourceItem/ResourceItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/web/components/CourseContent/CourseItem/ResourceItem/ResourceItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack/loaders/typescript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@rails/webpacker/package/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack/environment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/storage.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpacker.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

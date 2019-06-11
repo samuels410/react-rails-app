@@ -1,0 +1,5 @@
+export const QUIZ_START = 'QUIZ_START'
+export const QUIZ_SUBMIT = 'QUIZ_SUBMIT'
+export const QUIZ_DONE = 'QUIZ_DONE'
+
+export const QUIZ_UPDATE_ACTIVE_QUESTION = 'QUIZ_UPDATE_ACTIVE_QUESTION'

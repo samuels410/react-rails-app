@@ -1,0 +1,32 @@
+.quizStatus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.container {
+  margin: 8px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.questionButtonContainer {
+  display: flex;
+  align-items: center;
+}
+.questionButton {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.questionButton.answered {
+  background-color: var(--green-blue);
+}
+
+.questionButton.flagged {
+  background-color: var(--rosy-pink);
+}
